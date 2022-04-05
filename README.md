@@ -16,37 +16,21 @@ This is a leaderboard app to displays scores submitted by different players. All
 
 start by cloning this repository by running:
 
-```
 git clone https://github.com/OybekKayumov/microverse-m2-leaderboard.git
-```
 
-cd to the folder
-
-```
+- $cd to the folder
 
 run this command to install all the packages needed
 
-```
-
-npm install
-
-```
+- $npm install
 
 to run a live server on port 8080 run this command
 
-```
-
-npm run start
-
-```
+- $npm run start
 
 to build your project run:
 
-```
-
-npm run build
-
-```
+- $npm run build
 
 ## Authors
 
@@ -55,7 +39,6 @@ npm run build
 - GitHub: [Oybek Kayumov](https://github.com/OybekKayumov)
 - Twitter: [@KayumovOybek](https://twitter.com/KayumovOybek)
 - LinkedIn: [Oybek Kayumov](https://www.linkedin.com/in/oybek-kayumov-54a8485b/)
-
 
 ## 🤝 Contributing
 
@@ -66,7 +49,6 @@ Feel free to check the [issues page](https://github.com/OybekKayumov/microverse-
 ## Show your support
 
 Give a ⭐️ if you like this project!
-```
 
 ## 📝 License
 

@@ -32,7 +32,7 @@ to build your project run:
 
 - $npm run build
 
-## Authors
+## Author
 
 👤 **Oybek Kayumov**
 

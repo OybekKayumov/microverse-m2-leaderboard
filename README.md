@@ -2,7 +2,7 @@
 
 This is a leaderboard app to displays scores submitted by different players. All data is preserved thanks to the external leaderboard API.
 
-![screenshot]()
+![screenshot](https://user-images.githubusercontent.com/85465559/161788269-b84c4941-8a1d-43af-aa9b-552127a80ee1.png)
 
 ## Built using
 

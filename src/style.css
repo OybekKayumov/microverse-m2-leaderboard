@@ -21,6 +21,7 @@ h1 {
 }
 
 .btn {
+  font-weight: bold;
   cursor: pointer;
   border: 3px solid #333;
   padding: 4px 14px;
@@ -50,6 +51,10 @@ h1 {
   gap: 54px;
 }
 
+.list {
+  width: 420px;
+}
+
 .list ul {
   border: 3px solid #333;
   margin: 22px 0;
@@ -64,6 +69,10 @@ h1 {
   background-color: #ececec;
 }
 
+.add-score-form {
+  width: 250px;
+}
+
 .add-score-form form {
   display: flex;
   flex-direction: column;
@@ -74,6 +83,6 @@ h1 {
 
 .add-score-form input {
   width: 100%;
-  border: 2px solid #333;
+  border: 3px solid #333;
   padding: 6px;
 }

@@ -14,9 +14,15 @@ body {
   text-align: center;
 }
 
+h1 {
+  font-size: 48px;
+  text-align: left;
+  margin-left: 40px;
+}
+
 .btn {
   cursor: pointer;
-  border: 2px solid #333;
+  border: 3px solid #333;
   padding: 4px 14px;
   background-color: #fff;
   width: fit-content;
@@ -45,7 +51,7 @@ body {
 }
 
 .list ul {
-  border: 2px solid #333;
+  border: 3px solid #333;
   margin: 22px 0;
 }
 

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap');
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Sarala', sans-serif;
+  padding: 50px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+  text-align: left;
+  margin-left: 40px;
+}
+
+.btn {
+  font-weight: bold;
+  cursor: pointer;
+  border: 3px solid #333;
+  padding: 4px 14px;
+  background-color: #fff;
+  width: fit-content;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.btn:active {
+  transform: scale(0.9);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 46px;
+  padding: 40px 0;
+  text-align: left;
+}
+
+.refresh {
+  display: flex;
+  justify-content: space-between;
+  gap: 54px;
+}
+
+.list {
+  width: 420px;
+}
+
+.list ul {
+  border: 3px solid #333;
+  margin: 22px 0;
+}
+
+.list li {
+  list-style: none;
+  padding: 12px;
+}
+
+.list li:nth-child(even) {
+  background-color: #ececec;
+}
+
+.add-score-form {
+  width: 250px;
+}
+
+.add-score-form form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 22px;
+  align-items: flex-end;
+  gap: 14px;
+}
+
+.add-score-form input {
+  width: 100%;
+  border: 3px solid #333;
+  padding: 6px;
+}

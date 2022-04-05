@@ -12,21 +12,27 @@ body {
   font-family: 'Sarala', sans-serif;
   padding: 50px;
   text-align: center;
+  background-color: #2d545e;
+  color: #e1b382;
 }
 
 h1 {
   font-size: 48px;
   text-align: left;
-  margin-left: 40px;
+  margin-left: 10%;
+  letter-spacing: 4px;
 }
 
 .btn {
   font-weight: bold;
   cursor: pointer;
-  border: 3px solid #333;
+  border: 3px solid #c89667;
+  border-radius: 6px;
   padding: 4px 14px;
-  background-color: #fff;
+  color: #12343b;
+  background-color: #e1b382;
   width: fit-content;
+  letter-spacing: 1px;
 }
 
 .btn:hover {
@@ -43,6 +49,7 @@ h1 {
   gap: 46px;
   padding: 40px 0;
   text-align: left;
+  letter-spacing: 2px;
 }
 
 .refresh {
@@ -56,7 +63,8 @@ h1 {
 }
 
 .list ul {
-  border: 3px solid #333;
+  border: 3px solid #c89667;
+  border-radius: 6px;
   margin: 22px 0;
 }
 
@@ -66,7 +74,7 @@ h1 {
 }
 
 .list li:nth-child(even) {
-  background-color: #ececec;
+  background-color: #12343b;
 }
 
 .add-score-form {
@@ -83,6 +91,13 @@ h1 {
 
 .add-score-form input {
   width: 100%;
-  border: 3px solid #333;
+  border: 3px solid #c89667;
+  border-radius: 6px;
   padding: 6px;
+  background-color: #e1b382;
+}
+
+#msg {
+  color: #f75990;
+  font-size: 14px;
 }

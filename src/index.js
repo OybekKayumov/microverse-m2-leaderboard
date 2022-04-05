@@ -5,6 +5,7 @@ import renderScore from './render-score';
 
 const refBtn = document.querySelector('.btn-refresh');
 const form = document.querySelector('form');
+const msg = document.querySelector('#msg');
 
 refBtn.addEventListener('click', async () => {
   const list = await getScores();
@@ -21,4 +22,12 @@ form.addEventListener('submit', async (event) => {
 
   form.reset();
   await setScore(score);
+
+  setTimeout(() => {
+    // msg.innerHTML = 'Your score has been added, press Refresh to see';
+    msg.innerHTML = `"${score.score}" by "${score.user}" has been added, press Refresh to see`;
+    setTimeout(() => {
+      msg.innerHTML = '';
+    }, 2000);
+  }, 2000);
 });
